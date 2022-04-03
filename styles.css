@@ -69,3 +69,16 @@ body{
     border-radius: 25px;
     color: white;
 }
+
+.hidden{
+    display: none;
+}
+
+.end{
+    text-align: center;
+    padding: 34px 24px 37px 24px;
+}
+
+.image{
+    margin-bottom: 1.5rem;
+}
