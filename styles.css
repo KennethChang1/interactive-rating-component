@@ -59,6 +59,15 @@ body{
     margin-bottom: 24px;
 }
 
+.ratings__button:hover{
+    background-color: #969FAD;
+}
+
+.ratings__button:focus{
+    background-color: #FC7614;
+}
+
+
 .submit{
     display: inline-block;
     text-align: center;
@@ -68,6 +77,7 @@ body{
     padding: 1rem;
     border-radius: 25px;
     color: white;
+    border: none;
 }
 
 .hidden{
@@ -81,4 +91,13 @@ body{
 
 .image{
     margin-bottom: 1.5rem;
+}
+
+.score{
+    color: #FC7614; 
+    background-color: #262E38;
+    width: fit-content;
+    margin: 0 auto 1rem;
+    padding: 0.5rem;
+    border-radius: 15px;
 }
