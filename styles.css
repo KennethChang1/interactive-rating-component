@@ -15,6 +15,7 @@ body{
     font-family: 'Overpass', sans-serif;
     background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
     width: 90%;
+    max-width: 412px;
     margin: auto;
     border-radius: 15px;
     padding: 1.5rem;
@@ -78,6 +79,12 @@ body{
     border-radius: 25px;
     color: white;
     border: none;
+}
+
+.submit:hover{
+    background-color: white;
+    color: #FC7614;
+    cursor: pointer;
 }
 
 .hidden{
